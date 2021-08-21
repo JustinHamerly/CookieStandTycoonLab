@@ -14,13 +14,12 @@ export default function CreateForm({ onCreate }) {
 
           <legend>Create Cookie Stand</legend>
 
-          <div>
+          <div id="location">
               <label htmlFor="location">Location</label>
               <input type="text" name="location" />
           </div>
 
-          <div>
-
+          <div id="fieldsets">
               <fieldset>
                   <label htmlFor="min-customers">Minimum Customers per Hour</label>
                   <input type="number" name="min-customers" />
@@ -37,6 +36,7 @@ export default function CreateForm({ onCreate }) {
               </fieldset>
               <button type="submit">Create</button>
           </div>
+          
 
       </form>
   )
