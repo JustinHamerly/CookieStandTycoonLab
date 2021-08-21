@@ -1,0 +1,102 @@
+body{
+  display:flex;
+  text-align: center;
+  background-color: #FFFBFF;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+#root{
+  
+  background-color: #EBD8D0;
+  width: 800px;
+  min-width:800px;
+  margin:auto;
+  margin-top: 30px;
+}
+
+main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div{
+  background-color: #EBD8D0;
+}
+
+form {
+  background-color: #FFFBFF;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  width: 700px;
+  padding: 10px;
+}
+
+h1{
+  font-family: 'Homemade Apple', cursive;
+  font-size: 30pt;
+  margin: 10px;
+  padding: 5px;
+  color:#FFFBFF;
+  background-color: #1D1A05
+}
+
+legend {
+  font-size:32px;
+  color: #1D1A05
+}
+
+table {
+  background-color: #FFFBFF;
+  margin-top: 10px;
+  margin-bottom: 10px;;
+  width: 700px;
+}
+
+form div{
+  background-color: #FFFBFF;
+}
+
+#location{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#fieldsets{
+  display: flex;
+  justify-content: space-between;
+  border:none;
+  width: 100%;
+  align-items: center;
+  height: 75px;
+}
+
+fieldset {
+  height: 50px;
+}
+
+button {
+  height: 68px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color:#1D1A05;
+  color:#EBD8D0;
+  transition-duration: .25s;
+  border: none;
+}
+
+button:hover {
+  background-color:#EBD8D0;
+  color: #1D1A05;
+}
+
+footer p{
+  background-color: #1D1A05;
+  color: #FFFBFF;
+  margin:10px;
+  font-size: 24px;
+
+}

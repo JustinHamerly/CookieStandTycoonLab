@@ -5,6 +5,7 @@ import ReportTable from './components/report-table'
 import Footer from './components/footer'
 import { hours } from './data'
 
+
 class App extends Component {
 
   constructor(props) {
