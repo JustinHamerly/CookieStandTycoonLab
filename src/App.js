@@ -1,9 +1,9 @@
-import { Component } from 'react'
-import Header from './components/header'
-import CreateForm from './components/create-form'
-import ReportTable from './components/report-table'
-import Footer from './components/footer'
-import { hours } from './data'
+import { Component } from 'react';
+import Header from './components/header';
+import CreateForm from './components/create-form';
+import ReportTable from './components/report-table';
+import Footer from './components/footer';
+import { hours } from './data';
 
 
 class App extends Component {
