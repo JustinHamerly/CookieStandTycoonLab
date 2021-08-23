@@ -14,7 +14,10 @@
       "error",
       "always"
     ],
-    "indent": "off",
+    "indent": [
+      "error",
+      2
+    ],
     "new-cap": "warn",
     "no-console": "off",
     "no-multi-spaces": [
@@ -41,6 +44,6 @@
         "allowTemplateLiterals": true
       }
     ],
-    "semi": "off",
+    "semi": "error"
   }
 }
